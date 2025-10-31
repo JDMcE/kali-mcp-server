@@ -17,7 +17,7 @@ kali_mcp/
 ### 1. Build the image
 
 ```bash
-# Using the recommended clean Dockerfile
+# Using the Dockerfile
 docker build -f dockerfile -t kali-mcp .
 ```
 
@@ -82,7 +82,7 @@ This approach assumes you have a container already running in daemon mode:
 }
 ```
 
-**For Windows (IMPORTANT - Use this version):**
+**For Windows:**
 ```json
 {
   "mcpServers": {
